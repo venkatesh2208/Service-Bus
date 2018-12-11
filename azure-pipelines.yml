@@ -7,10 +7,10 @@ trigger:
 - master
 
 pool:
-  vmImage: 'VS2017-Win2016'
+  vmImage: '*'
 
 variables:
-  solution: '**/*.sln'
+  solution: '*'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
